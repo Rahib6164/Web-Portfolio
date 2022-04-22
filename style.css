@@ -30,6 +30,7 @@ p{
 .topbanner{
     background-image: url(images/WebDeveloper.jpg);
     background-repeat: no-repeat;
+    border: 2px;
 }
 .Web-Developer img{
     width: 550px;
@@ -45,4 +46,40 @@ section{
     padding: 7px;
     border-radius: 10px;
     color: aliceblue;
+}
+.guitarist{
+    padding: 40px;
+    float: right;
+    margin: 20px;
+    width: 40%;
+ }
+ .guitarist img{
+     width: 120%;
+     position: relative;
+}
+.ytbuttons{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 1000;
+    background-image: linear-gradient(50deg, rgba(255, 0, 0, 0.623), rgba(8, 6, 6, 0.767));
+    padding: 8px;
+    border-radius: 50px;
+}
+.producer{
+    padding: 40px;
+    float: left;
+    margin: 20px;
+    width: 40%;
+ }
+.producer img{
+    width: 75%;
+}
+.fbbuttons{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    background-image: linear-gradient(60deg, rgba(0, 26, 255, 0.623), rgba(243, 2, 2, 0.767));
+    padding: 8px;
+    border-radius: 50px;
+    border: 5px;
 }
